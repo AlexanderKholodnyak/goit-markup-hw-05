@@ -600,13 +600,17 @@ footer > p {
 
 .project-item {
   /* outline: 3px solid orange; */
+  /* border-radius: 5px; */
   margin-bottom: 30px;
 
   width: 370px;
+
+  overflow: hidden;
 }
 .project__image {
   position: relative;
   /* outline: 1px solid red; */
+  /* margin-bottom: 20px; */
 
   overflow: hidden;
 }
@@ -622,7 +626,7 @@ footer > p {
 
   opacity: 1;
 }
-.project__image:hover .project__background {
+.project-item:hover .project__background {
   opacity: 1;
   transform: translateY(-100%);
 }
@@ -664,15 +668,13 @@ footer > p {
   padding-bottom: 20px;
 } */
 .project-text {
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  /* border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; */
   border-bottom: 1px solid#EEEEEE;
   border-right: 1px solid#EEEEEE;
   border-left: 1px solid#EEEEEE;
   padding-top: 20px;
   padding-bottom: 20px;
-
-  overflow: hidden;
 }
 
 .project-title {
